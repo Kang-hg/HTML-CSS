@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS 링크</title>
+        <style>
+            a:link {
+                color: #0000ff;
+                text-decoration: none;  /* a:link 디폴트값은 밑줄 */
+            }
+            a:visited { /* 한번 이상 클릭 하면 바뀌게 되는 색 */
+                color: #00ff00;
+            }
+            a:hover {   /* 마우스 포인터를 가져가면 변함 */
+                color: #ff0000;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            a:active {  /* 마우스로 클릭하는 순간 */
+                color: #00ffff;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#">자유게시판</a> <!-- '#'은 임시 링크 -->
+    </body>
+</html>

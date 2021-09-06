@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            table, td, th {
+                border: solid 1px #e6ecd4;
+                height: 30px;
+            }
+            #table_title {
+                background-color: #f8f9f2;
+            }
+            td {
+                text-align: center;
+            }
+            .blue {
+                background-color: pink;
+                text-decoration: underline;
+                color: blue;
+                font-weight: bold;
+                width: 90px;
+            }
+            .red {
+                background-color: pink;
+                text-decoration: underline;
+                color: red;
+                font-weight: bold;
+                width: 90px;
+            }
+            #col1 {
+                width: 90px;
+            }
+            #col2 {
+                width: 50px;
+            }
+            #col3 {
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>버스표 예매</h2>
+        <table>
+            <tr id="table_title">
+                <th id="col1">구분</th>
+                <th id="col2">출발</th>
+                <th id="col2">도착</th>
+                <th id="col3">출발시간</th>
+                <th id="col3">소요시간</th>
+            </tr>
+            <tr>
+                <td class="blue">완행</td>
+                <td id="col2">서울</td>
+                <td id="col2">광주</td>
+                <td id="col3">09:00</td>
+                <td id="col3">03:00</td>
+            </tr>
+            <tr>
+                <td class="red">직행</td>
+                <td id="col2">서울</td>
+                <td id="col2">대구</td>
+                <td id="col3">10:00</td>
+                <td id="col3">03:30</td>
+            </tr>
+            <tr>
+                <td class="red">직행</td>
+                <td id="col2">서울</td>
+                <td id="col2">부산</td>
+                <td id="col3">11:00</td>
+                <td id="col3">04:10</td>
+            </tr>
+        </table>
+    </body>
+</html>
